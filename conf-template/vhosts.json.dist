@@ -1,0 +1,20 @@
+[
+    {
+        "domain": "some-url.xyz",
+        "host": "192.168.1.5",
+        "port": 8081,
+        "mail": "admin@admin.xyz"
+    },
+    {
+        "domain": "some-other-website.com",
+        "host": "192.168.1.5",
+        "port": 8096,
+        "mail": "admin@admin.xyz"
+    },
+    {
+        "domain": "another-website.gg",
+        "host": "192.168.1.6",
+        "port": 8081,
+        "mail": "admin@admin.xyz"
+    }
+]

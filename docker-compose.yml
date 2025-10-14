@@ -1,0 +1,16 @@
+services:
+  reverse-proxy:
+    build:
+      context: ./
+    ports:
+      - 80:80
+      - 443:443
+    container_name: "reverse-proxy"
+    environment:
+      - DEV_ENV=${DEV_ENV}
+    volumes:
+      - certbot_data:/var/www/certbot
+      - letsencrypt_data:/etc/letsencrypt
+volumes:
+  certbot_data:
+  letsencrypt_data:
