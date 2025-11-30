@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -e
-
 # Paths and templates
 VHOSTS_FILE="/etc/nginx/conf-template/vhosts.json"
 HTTP_TEMPLATE="/etc/nginx/conf-template/http.template"
